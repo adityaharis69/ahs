@@ -1,9 +1,7 @@
 name: gh-pages
 
 on:
-  check_run:
-  types: [rerequested, completed]
-
+  push
 jobs:
   deploy:
     runs-on: ubuntu-20.04
